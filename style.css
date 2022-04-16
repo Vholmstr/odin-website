@@ -123,7 +123,25 @@ h2 {
 .section-three {
     background-color: #e5e7eb;
     display: flex;
-    flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding: 30px;
+}
+
+.quote {
+    width: 750px;
+    display: flex;
+    flex-direction: column;
+}
+
+.quote-text {
+    font-size: 32px;
+    font-style: italic;
+    margin: 0px;
+}
+
+.quote-author {
+    margin-left: auto;
+    margin-top: -10px;
+    font-weight: 900;
 }
