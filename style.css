@@ -24,11 +24,63 @@ ul {
 
 li {
     list-style: none;
-    
 }
 
 a {
     text-decoration: none;
     color: #e5e7eb;
     font-size: 18px;
+}
+
+.section-one {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    background-color: #1f2937;
+    padding: 50px;
+}
+
+.sign-up-container {
+    width: 400px;
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.sign-up-title {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #f9faf8;
+    margin: 0px;
+}
+
+.sign-up-text {
+    color: #e5e7eb;
+    font-size: 18px;
+    margin: 0px;
+}
+
+.sign-up-button {
+    width: 100px;
+    padding: 5px;
+    font-weight: 900;
+    background-color: #3882f6;
+    border: 0;
+    border-radius: 5px;
+    color: #f9faf8;
+}
+
+.sign-up-image {
+    width: 400px;
+    height: 200px;
+    flex-shrink: 0;
+    background-color: gray;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sign-up-image-text {
+    color: #e5e7eb;
 }
