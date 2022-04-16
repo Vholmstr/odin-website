@@ -119,3 +119,11 @@ h2 {
 .image-box-text {
     text-align: center;
 }
+
+.section-three {
+    background-color: #e5e7eb;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
