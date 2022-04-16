@@ -84,3 +84,38 @@ a {
 .sign-up-image-text {
     color: #e5e7eb;
 }
+
+h2 {
+    padding: 25px;
+}
+
+.center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.section-two {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.image-container {
+    display: flex;
+    flex-direction: column;
+    width: 150px;
+    align-items: center;
+    justify-content: center;
+}
+
+.image-box {
+    width: 150px;
+    height: 150px;
+    border: 2px solid #3882f6;
+    border-radius: 10px;
+}
+
+.image-box-text {
+    text-align: center;
+}
