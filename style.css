@@ -149,25 +149,40 @@ h2 {
 }
 
 .section-four {
-
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f9faf8;
+    padding: 50px;
 }
 
 .blue-box {
-
+    width: 800px;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #3882f6;
+    flex: 0 1 auto;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
 }
 
 .blue-box-text {
-
+    color: #f9faf8;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    gap: 5px;
 }
 
 .blue-box-text-header {
-
+    margin: 0px;
 }
 
 .blue-box-text-content {
-
+    margin: 0px;
 }
 
 .white-border {
-    border: 1px solid white;
+    border: 1px solid #f9faf8;
 }
