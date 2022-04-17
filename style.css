@@ -100,6 +100,7 @@ h2 {
     display: flex;
     justify-content: center;
     gap: 50px;
+    padding: 0px 50px 100px 50px;
 }
 
 .image-container {
@@ -126,7 +127,7 @@ h2 {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 30px;
+    padding: 100px 50px 100px 50px;
 }
 
 .quote {
@@ -143,6 +144,30 @@ h2 {
 
 .quote-author {
     margin-left: auto;
-    margin-top: -10px;
+    margin-top: 0px;
     font-weight: 900;
+}
+
+.section-four {
+
+}
+
+.blue-box {
+
+}
+
+.blue-box-text {
+
+}
+
+.blue-box-text-header {
+
+}
+
+.blue-box-text-content {
+
+}
+
+.white-border {
+    border: 1px solid white;
 }
